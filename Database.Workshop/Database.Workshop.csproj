@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <!-- Needed for Dapper -->
+        <PackageReference Include="Dapper" Version="2.1.66" />
+
+        <!-- Needed for Swagger/OpenAPI (for generating Swagger UI and OpenAPI docs) -->
+        <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.11" />
+
+        <!-- Needed for EF Core -->
+        <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.16" />
+
+        <!-- Needed for EF Core Design-time tools (e.g., Migrations via CLI) -->
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.16">
+            <PrivateAssets>all</PrivateAssets>
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+        </PackageReference>
+
+        <!-- Needed for ADO.NET (NpgsqlCommand, NpgsqlConnection) -->
+        <PackageReference Include="Npgsql" Version="8.0.7" />
+
+        <!-- Needed for EF Core to work with PostgreSQL -->
+        <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.11" />
+
+        <!-- Needed for Swagger UI (part of Swashbuckle) -->
+        <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+
+        <!-- Optional: Used internally by diagnostic tools; can help with logging/performance tracing -->
+        <PackageReference Include="System.Diagnostics.DiagnosticSource" Version="8.0.1" />
+    </ItemGroup>
+
+</Project>
