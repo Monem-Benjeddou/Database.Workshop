@@ -47,6 +47,8 @@ msbuild.wrn
 
 # Rider IDE files
 .idea/
+.idea/.idea.Database.Workshop/
+.idea/.idea.Database.Workshop/.idea/
 **/.idea/**/workspace.xml
 **/.idea/**/tasks.xml
 **/.idea/shelf/*
@@ -61,7 +63,6 @@ msbuild.wrn
 **/.idea/**/*.iml
 **/.idea/**/contentModel.xml
 **/.idea/**/modules.xml
-.idea/.idea.Database.Workshop/
 
 # Visual Studio Code
 .vscode/
@@ -100,22 +101,3 @@ Migrations/*Snapshot.cs
 # Logs and temp files
 *.log
 *.tmp
-.DS_Store
-# Rider IDE files
-.idea/
-.idea/.idea.Database.Workshop/
-.idea/.idea.Database.Workshop/.idea/
-**/.idea/**/workspace.xml
-**/.idea/**/tasks.xml
-**/.idea/shelf/*
-**/.idea/dictionaries
-**/.idea/httpRequests/
-**/.idea/**/dataSources/
-**/.idea/**/dataSources.ids
-**/.idea/**/dataSources.xml
-**/.idea/**/dataSources.local.xml
-**/.idea/**/sqlDataSources.xml
-**/.idea/**/dynamic.xml
-**/.idea/**/*.iml
-**/.idea/**/contentModel.xml
-**/.idea/**/modules.xml
