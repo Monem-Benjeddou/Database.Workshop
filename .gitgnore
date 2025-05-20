@@ -1,129 +1,94 @@
+# Temporary editor swap files
 *.swp
 *.*~
-project.lock.json
+
+# OS generated files
 .DS_Store
+Thumbs.db
+
+# Python bytecode (if any)
 *.pyc
-nupkg/
 
-# Visual Studio Code
-.vscode/
+# Project lock files
+project.lock.json
 
-# Rider
-.idea/
-
-# Visual Studio
-.vs/
-
-# Fleet
-.fleet/
-
-# Code Rush
-.cr/
-
-# User-specific files
-*.suo
-*.user
-*.userosscache
-*.sln.docstates
-
+# Media files you want to ignore
 *.mp4
 
+# NuGet packages
+*.nupkg
+*.snupkg
+nupkg/
+packages/
 
 # Build results
-[Dd]ebug/
-[Dd]ebugPublic/
-[Rr]elease/
-[Rr]eleases/
-x64/
-x86/
+bin/
+obj/
+out/
 build/
 bld/
-[Bb]in/
-[Oo]bj/
-[Oo]ut/
+[Dd]ebug*/
+[Rr]elease*/
+x64/
+x86/
+
+# MSBuild logs
 msbuild.log
 msbuild.err
 msbuild.wrn
-# User specific
+
+# Visual Studio files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.userprefs
+*.sln.docstates
+
+# Rider IDE files
+.idea/
 **/.idea/**/workspace.xml
 **/.idea/**/tasks.xml
 **/.idea/shelf/*
 **/.idea/dictionaries
 **/.idea/httpRequests/
-
-# Sensitive or high-churn files
 **/.idea/**/dataSources/
 **/.idea/**/dataSources.ids
 **/.idea/**/dataSources.xml
 **/.idea/**/dataSources.local.xml
 **/.idea/**/sqlDataSources.xml
 **/.idea/**/dynamic.xml
-# Rider
-# Rider auto-generates .iml files, and contentModel.xml
 **/.idea/**/*.iml
 **/.idea/**/contentModel.xml
 **/.idea/**/modules.xml
-.DS_Store
-# Ignore build outputs
-bin/
-obj/
-
-# Ignore user-specific files
-*.user
-*.userosscache
-*.suo
-*.userprefs
-*.vs/
-
-# Ignore Rider IDE files
-.idea/
-
-# Ignore Visual Studio Code files
-.vscode/
-
-# Ignore system files
-.DS_Store
-Thumbs.db
-
-# Ignore logs and temp files
-*.log
-*.tmp
-
-# Ignore NuGet packages
-*.nupkg
-*.snupkg
-packages/
-
-# Ignore database files
-*.mdf
-*.ldf
-*.sqlite
-
-# Ignore published output
-publish/
-
-# Ignore Rider project files cache
 .idea/.idea.Database.Workshop/
 
-# Ignore dotnet watch temp files
+# Visual Studio Code
+.vscode/
+
+# Fleet IDE
+.fleet/
+
+# Code Rush
+.cr/
+
+# Dotnet watch temp files
 .watch/
 
-# Ignore appsettings secrets
+# Application secrets
+secrets.json
 appsettings.*.json
 
-# Ignore dotnet EF migrations snapshot
+# EF migrations snapshot files
 Migrations/*Snapshot.cs
 
-# Ignore HTTP request files
+# HTTP request files
 *.http
 
-# Ignore dotnet global tools cache
+# Dotnet global tools cache
 .tools/
 
-# Ignore JetBrains Rider files
-.idea/
-
-# Ignore any generated code or compiled files
+# Ignore compiled binaries and intermediate files
 *.dll
 *.exe
 *.pdb
@@ -132,9 +97,6 @@ Migrations/*Snapshot.cs
 *.meta
 *.obj
 
-# Ignore logs
+# Logs and temp files
 *.log
-
-# Ignore user secrets (if any)
-secrets.json
-
+*.tmp
